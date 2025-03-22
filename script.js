@@ -36,6 +36,7 @@ function sellItem() {
     const quantityCell = selectedRow.cells[1];
     let quantity = parseInt(quantityCell.textContent);
 
+    
     if (quantity >= sellQuantity) {
       quantity -= sellQuantity;
       quantityCell.textContent = quantity;
