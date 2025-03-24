@@ -68,7 +68,6 @@ input {
     box-sizing: border-box;
 }
 
-
 button {
     background-color: #3498db;
     color: #fff;
@@ -98,21 +97,6 @@ th, td {
 th {
     background-color: #3498db;
     color: #fff;
-}
-
-.sell-container {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.sell-container input {
-    width: 80px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
 }
 
 .total-amount {
